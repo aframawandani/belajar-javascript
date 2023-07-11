@@ -1,0 +1,33 @@
+let a = 99;
+let b = 14;
+let c = 10;
+
+if (a > b && b > c) {
+    console.log(a);
+}
+else if (b > a && b > c) {
+    console.log(b);
+}
+else if (c > a && c > b) {
+    console.log(c);
+}
+
+if (a > b && a < c || a < b && a > c) {
+    console.log(a);
+}
+else if (b > a && b < c || b < a && b > c) {
+    console.log(b);
+}
+else if (c > a && c < b || c < a && c > b) {
+    console.log(c);
+}
+
+if (a < b && b < c) {
+    console.log(a);
+}
+else if (b < a && b < c) {
+    console.log(b);
+}
+else if (c < a && c < b) {
+    console.log(c);
+}
